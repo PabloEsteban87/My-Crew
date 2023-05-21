@@ -1,0 +1,279 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+    background-image: url("../imagenes/fondo_1/img_fondo2.jpeg");
+    background-size: cover;
+}
+
+header {
+    background-color: floralwhite;
+}
+
+.fondo {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: bisque;
+    width: calc(100% - 39px);
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+#logo {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+.imagen_logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+#encabezado_principal {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.estilos_h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53 84 163);
+}
+
+h1 {
+    font-size: 37px;
+}
+
+.linea_encabezado {
+    box-shadow: 0.5px 5px 5px 0px rgba(145, 139, 145, 0.71);
+    height: 2px;
+    background-color: rgb(53 84 163);
+    margin-top: 0.5px;
+}
+
+.estilos_h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: arial;
+    color: rgb(53 84 163);
+    font-size: 20px;
+}
+
+.seccion1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.seccion2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.seccion3 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#avatares {
+    width: 100%;
+    margin-top: 11px;
+    display: inline-flex;
+    padding-top: 28px;
+    padding-bottom: 34px;
+}
+
+.avatar_maria {
+    opacity: 1;
+}
+
+.avatar_pablo {
+    opacity: 1;
+}
+
+.avatar_maria:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: all ease .3s;
+}
+
+.avatar_pablo:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: all ease .3s;
+}
+
+.frase_pablo {
+    position: relative;
+    top: 80px;
+    right: 20px;
+    color: rgb(53 84 163);
+
+}
+
+.frase_maria {
+    position: relative;
+    top: 80px;
+    right: 20px;
+    color: #3655a3;
+}
+
+.imagen_pablo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.imagen_maria {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.nombre_pablo {
+    margin-top: 5px;
+    color: rgb(53 84 163);
+    font-family: arial;
+}
+
+.nombre_maria {
+    margin-top: 5px;
+    color: rgb(53 84 163);
+    font-family: arial;
+}
+
+
+#banner {
+    background-color: rgb(53 84 163);
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 7px;
+    box-shadow: 10px 10px 5px 0px rgba(145, 139, 145, 0.71);
+    overflow: hidden;
+}
+
+#contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    margin: 10px;
+}
+
+.anuncio {
+    position: relative;
+    top: 10px;
+}
+
+.html {
+    width: 70px;
+    height: 80px;
+}
+
+.html:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: all ease .3s;
+}
+
+.css {
+    width: 70px;
+    height: 80px;
+}
+
+.css:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: all ease .3s;
+}
+
+.github {
+    width: 70px;
+    height: 80px;
+}
+
+.github:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: all ease .3s;
+}
+
+.factoria {
+    width: 70px;
+    height: 80px;
+}
+
+.factoria:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: all ease .3s;
+}
+
+.git {
+    width: 70px;
+    height: 80px;
+}
+
+.git:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: all ease .3s;
+}
+
+.code {
+    width: 70px;
+    height: 80px;
+}
+
+.code:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: all ease .3s;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(53 84 163);
+}
+
+footer p {
+    color: rgb(241 241 245);
+    text-align: center;
+    padding: 8px;
+    font-family: arial;
+}
+
+#emojis {
+    position: relative;
+    top: 100px
+}
+
+#feliz {
+    width: 50px;
+    height: 50px;
+}
+
+#triste {
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 575.98px)and (orientation:portrait) {
+    #contenedor-imagenes {
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 13px;
+    }
+}
